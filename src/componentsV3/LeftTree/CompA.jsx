@@ -1,11 +1,11 @@
 import React from 'react'
 import { CompB } from './CompB'
 
-export const CompA = (props) => {
+export const CompA = () => {
   return (
     <>
-    <h3>CompA- name={props.name}</h3>
-    <CompB midName={props.midName} lastname={props.lastname}/> 
+        <h3>CompA</h3>
+        <CompB/>
     </>
   )
 }

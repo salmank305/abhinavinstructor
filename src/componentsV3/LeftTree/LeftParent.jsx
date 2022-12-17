@@ -1,11 +1,12 @@
-import React from "react";
-import { CompA } from "./CompA";
+import React from 'react'
+import { CompA } from './CompA'
+import { CompB } from './CompB'
 
-export const LeftParent = (props) => {
+export const LeftParent = () => {
   return (
-    <>
-      <h2>LeftParent-{props.studentDetails}</h2>
-      <CompA name={props.name} midName={props.midName} lastname={props.lastname} />
-    </>
-  );
-};
+   <>
+    <h2>LeftParent</h2>
+    <CompA/>
+   </>
+  )
+}

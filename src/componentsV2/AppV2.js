@@ -44,7 +44,7 @@ export const AppV2 = () => {
             <button onClick={() => setShow(false)}>remove UseEffectHookV3</button> */}
             {/* <UseReducerHook/> */}
             {/* <UseReducerV2/> */}
-            <UseReducerV3/>
+            {/* <UseReducerV3/> */}
         </div>
     )
 }
